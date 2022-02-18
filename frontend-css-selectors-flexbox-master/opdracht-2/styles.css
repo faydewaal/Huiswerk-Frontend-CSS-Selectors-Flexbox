@@ -1,0 +1,86 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+/*opdracht 1*/
+.one {
+    display: flex;
+    background-color: hsl(259,58%,64%);
+    flex-direction: column;
+    position: relative;
+}
+
+.one p {
+    position: absolute;
+    padding: 10px 0;
+    bottom: 80px;
+    left: 10px;
+}
+
+.one h3 {
+    position: absolute;
+    padding: 10px 0;
+    bottom: 0px;
+    left: 10px;
+}
+
+/*opdracht 2*/
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*opdracht 3*/
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.three ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+/*opdracht 4*/
+.for {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.for form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.for label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*opdracht 5*/
+.five {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.five article {
+    width: 30%;
+}
+
+
+
